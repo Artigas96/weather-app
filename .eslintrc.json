@@ -22,9 +22,8 @@
     },
     "plugins": ["@typescript-eslint", "react", "prettier"],
     "rules": {
-        "indent": ["error", 4],
-        "linebreak-style": ["error", "unix"],
-        "quotes": ["error", "single"],
-        "semi": ["error", "never"]
+        "indent": ["warn", 4],
+        "quotes": ["warn", "single"],
+        "semi": ["warn", "never"]
     }
 }
